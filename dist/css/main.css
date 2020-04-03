@@ -316,10 +316,7 @@ html {
           box-sizing: inherit; }
 
 body {
-  background: #FFF8F0;
-  background-color: #e0dddc;
-  background-image: -o-linear-gradient(28deg, #e0dddc 0%, #f1e3c2 100%);
-  background-image: linear-gradient(62deg, #e0dddc 0%, #f1e3c2 100%); }
+  background: #fefefe; }
 
 .main {
   width: 100%;
