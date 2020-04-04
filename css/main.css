@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -316,16 +317,14 @@ html {
           box-sizing: inherit; }
 
 body {
-  background: #FFF8F0;
-  background-color: #e0dddc;
-  background-image: -o-linear-gradient(28deg, #e0dddc 0%, #f1e3c2 100%);
-  background-image: linear-gradient(62deg, #e0dddc 0%, #f1e3c2 100%); }
+  background: #fefefe;
+  font-family: 'Nunito', sans-serif; }
 
 .main {
   width: 100%;
+  max-width: 1000px;
   display: -ms-grid;
   display: grid;
-  max-width: 1000px;
   margin: 32px auto;
       grid-template-areas: "header header" "about content";
   -ms-grid-columns: 200px 1fr;
@@ -343,7 +342,8 @@ body {
   grid-area: header; }
   .header__picture {
     display: block;
-    width: 100%; }
+    width: 100%;
+    max-height: 70vh; }
 
 .about {
   -ms-grid-row: 2;
@@ -355,7 +355,7 @@ body {
   -ms-grid-column: 2;
   grid-area: content; }
 
-@media (max-width: 375px) {
+@media (max-width: 375px){
     .header {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
@@ -454,7 +454,7 @@ body {
     display: none; } }
 
 .site-header {
-  margin: 32px; }
+  margin: 32px 0 32px 0; }
   @media (min-width: 641px) {
     .site-header {
       min-height: 48px; } }
