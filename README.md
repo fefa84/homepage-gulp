@@ -2,7 +2,7 @@
 
 # Strona Bezpieczna Randka
 
-Zapraszam na moją stronę: [Strona Bezpieczna Randka](https://github.com/fefa84/homepage-gulp)
+Zapraszam na moją stronę: [Strona Bezpieczna Randka](https://fefa84.github.io/homepage-gulp/)
 
 ## Jak uruchomić moją stronę lokalnie
 
