@@ -1,4 +1,12 @@
-# wtf-gulp-starter
+![homepage screenshot](github/gh.png)
+
+# Strona Bezpieczna Randka
+
+Zapraszam na moją stronę: [Strona Bezpieczna Randka](https://github.com/fefa84/homepage-gulp)
+
+## Jak uruchomić moją stronę lokalnie
+
+Aby uruchomić moją stronę lokalnie wykonaj poniższe polecenia:
 
 `npm install -g gulp-cli`
 
