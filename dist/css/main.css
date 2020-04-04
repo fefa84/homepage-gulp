@@ -342,7 +342,8 @@ body {
   grid-area: header; }
   .header__picture {
     display: block;
-    width: 100%; }
+    width: 100%;
+    max-height: 70vh; }
 
 .about {
   -ms-grid-row: 2;
@@ -453,7 +454,7 @@ body {
     display: none; } }
 
 .site-header {
-  margin: 32px; }
+  margin: 32px 0 32px 0; }
   @media (min-width: 641px) {
     .site-header {
       min-height: 48px; } }

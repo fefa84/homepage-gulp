@@ -39,6 +39,8 @@ body {
   &__picture {
     display:block;
     width:100%; 
+    max-height: 70vh;
+  
   }
 }
 
@@ -138,7 +140,7 @@ body {
 
 
 .site-header {
-  margin:32px;
+  margin:32px 0 32px 0;
   @media (min-width: 641px){
     min-height: 48px;
   }
